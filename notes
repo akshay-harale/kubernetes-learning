@@ -1,0 +1,6 @@
+To access exposed service out of minikube vm use following command
+minikube service node-app
+
+cluster-ip : to make pods available through the service inside the cluster
+NodePort: expose service on each nodes ip - useful to make connection of pods between different nodes
+LoadBalancer: expose service externally
